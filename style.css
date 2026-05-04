@@ -1,0 +1,95 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* HEADER COM FLEX */
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* FOTO */
+.foto img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+/* INFO */
+.info {
+    flex: 1;
+}
+
+/* NAV */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* CONTAINER FLEX */
+.container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 140px);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CAIXAS */
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* DISTRIBUI O CONTEÚDO */
+}
+
+/* TEXTO */
+.box p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* TÍTULOS */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
